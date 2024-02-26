@@ -1,0 +1,19 @@
+header {
+  p {
+    color: $wenge_brown; 
+    margin-left: 15px;
+    @media screen and (max-width : map-get($breakpoints, mobile)) {
+      margin-right: 15px;
+    }
+  }
+
+  #img_omelette {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 40px;
+    @media screen and (max-width : map-get($breakpoints, mobile)) {
+      border-radius: 0;
+      margin-top: 0;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import "utils/variables.scss";
+@import "utils/responsive.scss";
+
+@import "bases/body.scss";
+@import "bases/normalize.scss";
+
+@import "layout/header.scss";
+@import "layout/footer.scss";
+
+@import "components/separate_barre.scss";
+
+@import "pages/preparation.scss";
+@import "pages/ingredients.scss";
+@import "pages/instructions.scss";
+@import "pages/nutritions.scss";

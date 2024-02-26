@@ -1,0 +1,21 @@
+#instructions {
+    margin-top: 40px;
+    @media screen and (max-width : map-get($breakpoints, mobile)) {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    span {
+        font-weight: 700;
+        color: $dark_charcoal;
+    }
+
+    ol {
+        margin-left: 15px;
+
+        li {
+            padding-left: 30px;
+            color: $wenge_brown;
+        }
+    }
+}

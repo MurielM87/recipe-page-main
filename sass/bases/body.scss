@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $eggshell;
+    @media screen and (max-width : map-get($breakpoints, mobile)) {
+        background-color: $white;
+    }
+}
+
+.container {
+    width: 65%;
+    margin: 60px auto;
+    border-radius: 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: $white;
+    @media screen and (max-width : map-get($breakpoints, mobile)) {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .container_intern {
+        width: 85%;
+        margin: auto;
+        @media screen and (max-width : map-get($breakpoints, mobile)) {
+            width: 100%;
+        }
+    }
+}
+h1 {
+    font-family: "Young Serif", serif;
+    font-size: 40px;
+    color: $dark_charcoal;
+    @media screen and (max-width : map-get($breakpoints, mobile)) {
+        margin-left: 15px;
+        font-size: 30px;
+        line-height: 35px;;
+    }
+}
+
+h2 {
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: $nutmeg;
+    @media screen and (max-width : map-get($breakpoints, mobile)) {
+        font-size: 25px;
+    }
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: $dark_raspberry;
+    @media screen and (max-width : map-get($breakpoints, mobile)) {
+        font-size: 20px;
+    }
+}

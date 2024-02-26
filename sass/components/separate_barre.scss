@@ -1,0 +1,19 @@
+.separate_barre {
+    width: 100%;
+    border: 1px solid $light_grey;
+    margin-top: 40px;
+    @media screen and (max-width : map-get($breakpoints, mobile)) {
+        width: 80%;
+        margin: 40px auto;
+    }
+}
+
+.separate_barre_nutrition {
+    width: 100%;
+    border: 1px solid $light_grey;
+    margin: 10px 0;
+    @media screen and (max-width : map-get($breakpoints, mobile)) {
+        width: 90%;
+        margin: 10px auto;
+    }
+}

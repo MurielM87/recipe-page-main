@@ -1,0 +1,27 @@
+#preparation {
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 50px;
+    background-color: $rose_white;
+    text-align: justify;
+    @media screen and (max-width : map-get($breakpoints, mobile)) {
+        width: 80%; 
+        margin: 20px auto;
+    }
+
+    span{
+        font-weight: 700;
+        color: $dark_charcoal
+    }
+
+    ul {
+        color: $wenge_brown;
+        li {
+            padding-left: 30px;
+            @media screen and (max-width : map-get($breakpoints, mobile)) {
+                padding-left: 25px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,33 @@
+#nutrition {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    @media screen and (max-width : map-get($breakpoints, mobile)) {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .description {
+        color: $wenge_brown;
+        @media screen and (max-width : map-get($breakpoints, mobile)) {
+            margin-bottom: 15px;
+        }
+        
+    }
+    #database {
+        
+        .data {
+            display: flex;
+            flex-direction: row;
+
+            .name {
+                margin-left: 15px;
+                width: 50%;
+                color: $wenge_brown;
+            }
+            .number {
+                color: $dark_raspberry;
+                font-weight: 600;
+            }
+        }
+    }
+}

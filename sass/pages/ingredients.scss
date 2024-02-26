@@ -1,0 +1,16 @@
+#ingredients {
+  margin-top: 40px;
+  @media screen and (max-width : map-get($breakpoints, mobile)) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  ul {
+    margin-left: 15px;
+    color: $wenge_brown;
+
+    li {
+        padding-left: 30px;
+    }
+}
+}
